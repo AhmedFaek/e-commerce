@@ -1,0 +1,90 @@
+/* Contact Form Styles */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px; /* Added padding to create space around the form */
+  }
+  
+  .contact-form h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .divider {
+    width: 50px;
+    border: 1px solid #000;
+    margin: 10px auto 20px;
+  }
+  
+  .input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .input-field {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 1;
+  }
+  
+  .full-width {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    height: 150px;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #555;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.2);
+    position: absolute;
+  }
+  
+  /* Ensure the footer sticks to the bottom */
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  #root, .app {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+  
+  .content {
+    flex: 1;
+  }
+  
+  

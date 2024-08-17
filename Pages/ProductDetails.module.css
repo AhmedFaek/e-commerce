@@ -1,0 +1,90 @@
+/* ProductDetails.module.css */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    gap: 20px; /* Spacing between image and details */
+    max-width: 1200px; /* Optional: limit the max width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  .imageWrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center; /* Center image horizontally within its wrapper */
+  }
+  
+  .detailsWrapper {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center text and elements horizontally */
+    text-align: center; /* Center text alignment */
+  }
+  
+  .image {
+    width: 135%;
+    height: auto;
+    max-width: 500px; /* Optional: limit the max width of the image */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 2.5rem; /* Increase font size for the title */
+    margin-top: 20px;
+  }
+  
+  .details {
+    margin-top: 10px;
+    font-size: 1.5rem; /* Increase font size for details */
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #d9534f;
+    font-size: 2rem; /* Increase font size for price */
+  }
+  
+  .previousPrice {
+    text-decoration: line-through;
+    color: #6c757d;
+    font-size: 1.5rem; /* Increase font size for previous price */
+  }
+  
+  .color {
+    font-size: 1.5rem; /* Increase font size for color */
+  }
+  
+  .sizeDropdown {
+    width: 150px; /* Set the desired width for the dropdown */
+    font-size: 1.5rem; /* Increase font size for size dropdown */
+  }
+
+  .button {
+    background-color: #f0ad4e; /* Set the background color */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    border-radius: 25px; /* Make the button curvy */
+    padding: 10px 20px; /* Add padding */
+    display: flex; /* Use flexbox for aligning icon and text */
+    align-items: center; /* Center items vertically */
+    gap: 8px; /* Space between icon and text */
+    font-size: 1rem; /* Font size of text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Add transitions */
+  }
+  
+  .button:hover {
+    background-color: #ec971f; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  .icon {
+    font-size: 1.2rem; /* Size of the icon */
+  }
+
+  
+  
